@@ -29,10 +29,10 @@ Unit 6
 -
 -
 Unit 7
--
--
--
--
+-Sammy Leblanc
+-Taran Layal
+-Amy Chea
+-Lisa Yu
 Unit 8
 -
 -
@@ -74,10 +74,10 @@ Unit 15
 -
 -
 Unit 16
--
--
--
--
+- Maggie Liu
+- Kari Guentner
+- Lee Ye
+- Sarah White
 Unit 17
 -
 -
@@ -124,10 +124,10 @@ Unit 25
 -
 -
 Unit 26
--
--
--
--
+- Lauren Meadowcroft
+- Krista Birtles
+- Emma Kennedy
+- Jessica Chandrathasan
 Unit 27
 - Erica Cushnie
 - Karolina Zarichna
@@ -174,10 +174,10 @@ Unit 35
 -
 -
 Unit 36
--
--
--
--
+- Lovina Ng
+- Nancy Zhao
+- Sherry Xia
+- Venus Cheung
 Unit 37
 -
 -
