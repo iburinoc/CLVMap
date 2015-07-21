@@ -50,7 +50,6 @@ var init = function() {
                 }
         }
         $("#image").mousemove(moved);
-        $("#image").tap(moved);
         $("#image").click(function(e) {
                 var imwidth = $("#map").width();
                 var imheight = $("#map").height();
