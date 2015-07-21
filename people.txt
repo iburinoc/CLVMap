@@ -64,10 +64,10 @@ Unit 13
 -
 -
 Unit 14
--
--
--
--
+- Hannah Park
+- Ariane Fung
+- Bella Phan
+- Tiffany Tran
 Unit 15
 -
 -
@@ -209,20 +209,20 @@ Unit 42
 - Jennifer Park
 - Cindy Wu
 Unit 43
--
--
--
--
+- Shiraz Casseer
+- Dinal Manawadu
+- Justin Ip
+- Malcolm Lin
 Unit 44
 -
 -
 -
 -
-Unit 45
--
--
--
--
+Unit 45 (the fun house)
+- Kanika Dutta
+- Raisa Ladha
+- Erin Luz
+- Uzma Nadir
 Unit 46
 -
 -
@@ -264,30 +264,30 @@ Unit 53
 - Apery Kira
 - Becca McGugan
 Unit 54
--
--
--
--
+- Rohan Dave
+- Aayush Shah
+- Karan Patel
+- Daxil
 Unit 55
 -
 -
 -
 -
 Unit 56
--
--
--
--
+- Connie Sung
+- Jennifer Qiu
+- Hayley So
+- Edith Lam
 Unit 57
 -
 -
 -
 -
 Unit 58
--
--
--
--
+- Bhargavi Dameracharla
+- Tiffany Yeung
+- Nivasini Ananthakrishnan
+- Talia McCormick
 Unit 59
 -
 -
@@ -364,10 +364,10 @@ Unit 73
 -
 -
 Unit 74
--
--
--
--
+-Pushkin Abbott
+-Louis Castricato
+-Vibhanshu Bhardwaj
+-Nikita Kapustin
 Unit 75
 -
 -
