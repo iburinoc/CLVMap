@@ -20,8 +20,9 @@ var init = function() {
         moved = function(e) {
                 var imwidth = $("#map").width();
                 var imheight = $("#map").height();
-                var x = e.offsetX / imwidth;
-                var y = e.offsetY / imheight;
+                var off = $("#map").offset();
+                var x = (e.pageX - off.left) / imwidth;
+                var y = (e.pageY - off.top) / imheight;
                 var idx = -1;
                 for(var i = 1; i <= 100; i++) {
                         if(data[i].x && data[i].y) {
@@ -44,7 +45,7 @@ var init = function() {
                         var imgoff = $("#image").offset();
                         var infow = $("#info").width();
                         var infoh = $("#info").height();
-                        $("#info").offset({ top: e.offsetY + imgoff.top + 10, left: e.offsetX + imgoff.left - infoh / 2 });
+                        $("#info").offset({ top: y * imheight + imgoff.top + 10, left: x * imwidth + imgoff.left - infoh / 2 });
                         $("#info").show();
                 }
         }
