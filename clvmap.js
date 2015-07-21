@@ -25,7 +25,6 @@ var init = function() {
                 var idx = -1;
                 for(var i = 1; i <= 100; i++) {
                         if(data[i].x && data[i].y) {
-                                console.log(i);
                                 if(inside(data[i].x, data[i].y, x, y)) {
                                         idx = i;
                                         break;
