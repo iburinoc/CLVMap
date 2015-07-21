@@ -1,5 +1,19 @@
 var data = [];
 
+function inside(xp, yp, x, y) {
+        for(var i = 0; i < xp.length; i++) {
+                var dx1 = xp[i] - x;
+                var dy1 = yp[i] - y;
+                var dx2 = xp[(i + 1) % xp.length] - x;
+                var dy2 = yp[(i + 1) % xp.length] - y;
+
+                if(dx1 * dy2 - dx2 * dy1 < 0) {
+                        return false;
+                }
+        }
+        return true;
+}
+
 var init = function() {
         console.log('initializing map');
         $("#info").hide();
@@ -8,41 +22,43 @@ var init = function() {
                 var imheight = $("#map").height();
                 var x = e.offsetX / imwidth;
                 var y = e.offsetY / imheight;
-                var closeI = -1;
-                var closeD = 0.001;
+                var idx = -1;
                 for(var i = 1; i <= 100; i++) {
                         if(data[i].x && data[i].y) {
-                                var d = (x - data[i].x)*(x - data[i].x) + (y - data[i].y)*(y - data[i].y);
-                                if(d < closeD) {
-                                        closeI = i;
-                                        closeD = d;
+                                console.log(i);
+                                if(inside(data[i].x, data[i].y, x, y)) {
+                                        idx = i;
+                                        break;
                                 }
                         }
                 }
 
-                if(closeI == -1) {
+                if(idx == -1) {
                         $("#info").hide();
                 } else {
-                        $("#info-head").text('Unit ' + closeI);
-                        if(data[closeI].people) {
-                                $("#info-bod").html(data[closeI].people.join('<br>'));
+                        $("#info-head").text('Unit ' + idx);
+                        if(data[idx].people) {
+                                $("#info-bod").html(data[idx].people.join('<br>'));
                         } else {
                                 $("#info-bod").html("???");
                         }
                         var imgoff = $("#image").offset();
-                        $("#info").offset({ top: e.offsetY + imgoff.top, left: e.offsetX + imgoff.left });
+                        var infow = $("#info").width();
+                        var infoh = $("#info").height();
+                        $("#info").offset({ top: e.offsetY + imgoff.top + 10, left: e.offsetX + imgoff.left - infoh / 2 });
                         $("#info").show();
                 }
         }
         $("#image").mousemove(moved);
-        $("#image").click(moved /*function(e) {
+        $("#image").tap(moved);
+        $("#image").click(function(e) {
                 var imwidth = $("#map").width();
                 var imheight = $("#map").height();
                 var x = e.offsetX / imwidth;
                 var y = e.offsetY / imheight;
                 $("#points").html($("#points").html() + x + "<br>" + y + "<br>");
 
-        }*/);
+        });
 
         for(var i = 0; i <= 100; i++) {
                 data.push({});
@@ -53,8 +69,12 @@ var init = function() {
                 success: function(d) {
                         d = d.split('\n');
                         for(var i = 1; i <= 100; i++) {
-                                data[i].x = Number(d[i * 2 - 2]);
-                                data[i].y = Number(d[i * 2 - 1]);
+                                data[i].x = [];
+                                data[i].y = [];
+                                for(var j = 0; j < 4; j++) {
+                                        data[i].x.push(Number(d[i * 8 - 8 + j * 2]));
+                                        data[i].y.push(Number(d[i * 8 - 7 + j * 2]));
+                                }
                         }
                         console.log(data);
                 }
