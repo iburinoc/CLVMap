@@ -3,7 +3,9 @@
 <html lang="en">
         <head>
                 <link rel="stylesheet" type="text/css" href="clvmap.css"/>
-                <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'/>
+                <script src="/lib/jquery-2.1.4.min.js"></script>
+                <script src="/clvmap.js"></script>
         </head>
         <body>
                 <script>
@@ -37,7 +39,13 @@
                 <div id="mappage">
                         <h1>CLV 2015 Fall Resident Map</h1>
                         <h3>By Sean Purcell</h3>
-                        <img name="map" src="clvmap.svg" id="map"/>
+                        <div id="image">
+                                <img name="map" src="clvmap.svg" id="map"/>
+                        </div>
+                        <div id="info">
+                                <p id="info-head"></p>
+                                <p id="info-bod"></p>
+                        </div>
                 </div>
         </body>
 </html>
