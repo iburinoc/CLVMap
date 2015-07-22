@@ -29,6 +29,7 @@ div#info {
         overflow: hidden;
         text-align: left;
         pointer-events: none;
+        position: absolute;
 }
 
 p#info-head {

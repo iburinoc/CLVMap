@@ -34,7 +34,7 @@ var init = function() {
                 }
 
                 if(idx == -1) {
-                        $("#info").hide();
+                        $("#info").css({ display: 'none'});
                 } else {
                         $("#info-head").text('Unit ' + idx);
                         if(data[idx].people) {
@@ -42,10 +42,8 @@ var init = function() {
                         } else {
                                 $("#info-bod").html("???");
                         }
-                        var imgoff = $("#image").offset();
                         var infow = $("#info").width();
-                        var infoh = $("#info").height();
-                        $("#info").offset({ top: y * imheight + imgoff.top + 10, left: x * imwidth + imgoff.left - infoh / 2 });
+                        $("#info").css({ display: 'block', top: e.pageY + 10, left: e.pageX - infow / 2 });
                         $("#info").show();
                 }
         }
