@@ -44,10 +44,10 @@ Unit 9
 -
 -
 Unit 10
--
--
--
--
+-Ashley Ma
+-Aarabi Alexander
+-Agata Logvin
+-Jessica Yu
 Unit 11
 - Robin Chang
 - Peter Lin
@@ -59,10 +59,10 @@ Unit 12
 -Jessica Wong
 -Divya Arora
 Unit 13
--
--
--
--
+- Kanvardeep (Kanvar) Rakhraj
+- Sohil Kohly
+- Vinit Shah
+- Zain Zulfiqar
 Unit 14
 - Hannah Park
 - Ariane Fung
@@ -127,7 +127,7 @@ Unit 26
 - Lauren Meadowcroft
 - Krista Birtles
 - Emma Kennedy
-- Jessica Chandrathasan
+- Jessica Chandrathasan 
 Unit 27
 - Erica Cushnie
 - Karolina Zarichna
@@ -146,7 +146,7 @@ Unit 29
 Unit 30
 - Charlie Barcelos
 - Jake Bradbeer
-- Trenton Smith
+- Trenton Smith 
 - Piere Fakahany
 Unit 31
 -Afaq Shad
@@ -178,11 +178,11 @@ Unit 36
 - Nancy Zhao
 - Sherry Xia
 - Venus Cheung
-Unit 37
--
--
--
--
+Unit 37: SOUP BOYS
+-Brian Forbes
+-Duncan Uszkay
+-Tony Wang
+-Andy "Nyandy" Ye
 Unit 38
 - Miranda Summers
 - Payton Landsborough
@@ -218,11 +218,11 @@ Unit 44
 -
 -
 -
-Unit 45 (the fun house)
+Unit 45 (the fun house) 
 - Kanika Dutta
-- Raisa Ladha
+- Raisa Ladha 
 - Erin Luz
-- Uzma Nadir
+- Uzma Nadir 
 Unit 46
 -
 -
@@ -248,16 +248,16 @@ Unit 50
 -
 -
 -
-Unit 51
+Unit 51 
 - Matt D'Souza
 - Danyal Raza
 - David Lu
 - Sean Purcell
 Unit 52
--
--
--
--
+- Kevin Wang
+- Jameson Weng
+- Ronit Gandhi
+- Anthony Nguyen
 Unit 53
 - Dina Liebmann
 - Rebecca Lu
@@ -269,10 +269,10 @@ Unit 54
 - Karan Patel
 - Daxil
 Unit 55
--
--
--
--
+-Ryan Chiu
+-Ivan Fung
+-Daniel Xu
+-Tristan Yuen
 Unit 56
 - Connie Sung
 - Jennifer Qiu
@@ -479,10 +479,10 @@ Unit 96
 - Michelle Choi
 - Nina Yan
 Unit 97
--
--
--
--
+- Monica Bustos 
+- Sabrina Pan 
+- Alice Xiao 
+- Christine Nhan 
 Unit 98
 -
 -
