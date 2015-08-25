@@ -9,10 +9,10 @@ Unit 2
 -
 -
 Unit 3
--
--
--
--
+- Taraneh Tahmoureszadeh (watermelon on fb)
+-Negar Hasrati
+-Veronica Chatrath
+-Jainika Patel
 Unit 4
 -
 -
@@ -69,10 +69,10 @@ Unit 14
 - Bella Phan
 - Tiffany Tran
 Unit 15
--
--
--
--
+-Elmo
+-Bert 
+-Ernie
+-Oscar
 Unit 16
 - Maggie Liu
 - Kari Guentner
@@ -109,10 +109,10 @@ Unit 22
 -
 -
 Unit 23
--
--
--
--
+- Akiva Goldberg
+- Michael Bartella
+- Benson Guo
+- Ammaar Vakharwala
 Unit 24
 -
 -
@@ -127,17 +127,17 @@ Unit 26
 - Lauren Meadowcroft
 - Krista Birtles
 - Emma Kennedy
-- Jessica Chandrathasan 
+- Jessica Chandrathasan
 Unit 27
 - Erica Cushnie
 - Karolina Zarichna
 - Susan Dang
 - Megan Dol
 Unit 28
--
--
--
--
+- Monique Villa
+- Laura Leeming
+- Xianggu Liu
+- Alessandra Bishai
 Unit 29
 -
 -
@@ -146,7 +146,7 @@ Unit 29
 Unit 30
 - Charlie Barcelos
 - Jake Bradbeer
-- Trenton Smith 
+- Trenton Smith
 - Piere Fakahany
 Unit 31
 -Afaq Shad
@@ -218,11 +218,11 @@ Unit 44
 -
 -
 -
-Unit 45 (the fun house) 
+Unit 45 (the fun house)
 - Kanika Dutta
-- Raisa Ladha 
+- Raisa Ladha
 - Erin Luz
-- Uzma Nadir 
+- Uzma Nadir
 Unit 46
 -
 -
@@ -248,7 +248,7 @@ Unit 50
 -
 -
 -
-Unit 51 
+Unit 51
 - Matt D'Souza
 - Danyal Raza
 - David Lu
@@ -304,7 +304,7 @@ Unit 61
 -
 -
 Unit 62
--
+- Ben Zhang
 -
 -
 -
@@ -369,10 +369,10 @@ Unit 74
 -Vibhanshu Bhardwaj
 -Nikita Kapustin
 Unit 75
--
--
--
--
+- Victoria Bajorek
+- Hadeel Abed
+- Megan Dorosz
+- Raena Balsdon
 Unit 76
 -
 -
@@ -479,10 +479,10 @@ Unit 96
 - Michelle Choi
 - Nina Yan
 Unit 97
-- Monica Bustos 
-- Sabrina Pan 
-- Alice Xiao 
-- Christine Nhan 
+- Monica Bustos
+- Sabrina Pan
+- Alice Xiao
+- Christine Nhan
 Unit 98
 -
 -
